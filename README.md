@@ -78,4 +78,4 @@ make re       # Rebuild
 - This is one of the biggest and most complex projects at 42 School.
 - The server must be stable, secure, and handle concurrent connections efficiently.
 - No external libraries for the core HTTP functionality (only standard C++ and system calls).
-- this was a group project
+- This was a group project
