@@ -52,14 +52,14 @@ make
 ./webserv path/to/your/config.conf
 ```
 
-Testing
+## Testing
 The repository includes testing tools:
 
 - Use the files in tester/ and payloadTester/
 - Common test command (example):
 ```./tester/tester http://127.0.0.1:8080 ```
 
-Building
+## Building
 ```
 make          # Compile
 make clean    # Clean objects
@@ -67,14 +67,15 @@ make fclean   # Full clean
 make re       # Rebuild
 ```
 
-Requirements
+## Requirements
 
 - C++98 (or C++11 depending on implementation)
 - Linux / macOS
 - Basic networking knowledge
 
-Notes
+## Notes
 
 - This is one of the biggest and most complex projects at 42 School.
 - The server must be stable, secure, and handle concurrent connections efficiently.
 - No external libraries for the core HTTP functionality (only standard C++ and system calls).
+- this was a group project
